@@ -14,6 +14,6 @@ spec.swift_version = "5.1"
 spec.source       = { :git => "https://github.com/Rezki-Pratama/Modularization-Core.git", :tag => "#{spec.version}" }
 spec.source_files  = "Sources/Core/**/*.swift"
 spec.xcconfig = { "SWIFT_VERSION" => "5.1" }
-spec.dependency 'Realm+JSON', '~> 0.2'
+spec.dependency 'Realm'
 spec.ios.deployment_target = "9.0"
 end
