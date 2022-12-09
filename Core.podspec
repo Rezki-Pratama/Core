@@ -13,5 +13,5 @@ spec.platforms = { :ios => "14.0", :osx => "10.15", :watchos => "6.0" }
 spec.swift_version = "5.1"
 spec.source       = { :git => "https://github.com/Rezki-Pratama/Modularization-Core.git", :tag => "#{spec.version}" }
 spec.source_files  = "Sources/Core/**/*.swift"
-spec.dependency 'Realm', '~> 5.4.4'
+spec.dependency 'Realm', :git => 'https://github.com/realm/realm-cocoa.git'
 end
