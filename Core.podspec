@@ -10,9 +10,8 @@ spec.license      = { :type => "MIT", :file => "LICENSE" }
 spec.author             = { "Rezki Pratama" => "rezki.pratama7777@gmail.com" }
 spec.documentation_url = "https://github.com/Rezki-Pratama/Modularization-Core/blob/0.0.1/README.md"
 spec.platforms = { :ios => "14.0", :osx => "10.15", :watchos => "6.0" }
-spec.swift_version = "5.0"
+spec.swift_version = "5.1"
 spec.source       = { :git => "https://github.com/Rezki-Pratama/Modularization-Core.git", :tag => "#{spec.version}" }
 spec.source_files  = "Sources/Core/**/*.swift"
-spec.xcconfig = { "SWIFT_VERSION" => "5.0" }
 spec.dependency "Realm+JSON", "~> 0.2"
 end
